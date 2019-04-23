@@ -1,0 +1,13 @@
+{
+  "name": "Negative",
+  "description": "Negative transformation of the given data",
+  "tags": ["simple statistics"],
+  "authors": ["tercen"],
+  "urls": ["https://github.com/tercen/negative_operator"],
+  "properties": [
+   {
+ }
+]
+}
+
+
