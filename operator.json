@@ -1,6 +1,6 @@
 {
   "name": "Negative",
-  "description": "Negative transformation of the given data",
+  "description": "Transforms numerical data to a negative value (i.e. multiply by -1)",
   "tags": ["simple statistics"],
   "authors": ["tercen"],
   "urls": ["https://github.com/tercen/negative_operator"],
