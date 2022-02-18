@@ -1,0 +1,13 @@
+{
+  "kind": "OperatorUnitTest",
+  "name": "Substract",
+  "namespace": "ds0",
+  "inputDataUri": "c04_simple_measurement2_design.tsv",
+  "outputDataUri": ["table1.csv"],
+  "columns": [],
+  "rows": [],
+  "colors": [],
+  "labels": [],
+  "yAxis": "Measurement",
+  "xAxis": "Measurement2"
+}
