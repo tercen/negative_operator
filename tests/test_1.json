@@ -1,0 +1,17 @@
+{
+  "kind": "OperatorUnitTest",
+  "name": "test_1",
+  "namespace": "ds0",
+  "inputDataUri": "test_1_in.csv",
+  "outputDataUri": ["test_1_out_1.csv", "test_1_out_2.csv", "test_1_out_3.csv"],
+  "columns": [
+    "rowId"
+  ],
+  "rows": ["color"],
+  "colors": [],
+  "labels": [],
+  "yAxis": "y_values",
+  "xAxis": "x_values",
+  "generatedOn": "02/15/2023 04:12:12 PM 2023",
+  "version": ""
+}

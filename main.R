@@ -1,10 +1,26 @@
-library(tercen)
-library(dplyr)
+suppressPackageStartupMessages({
+  library(tercenApi)
+  library(tercen)
+  library(data.table)
+  library(dtplyr)
+  library(dplyr)
+})
 
 ctx <- tercenCtx()
 
-ctx %>% 
-  select(.y) %>% 
-  transmute(negative = -(.y)) %>%
+df_out <- ctx %>% 
+  select(.y, .ci, .ri) %>% 
+  lazy_dt() %>%
+  group_by(.ci, .ri)
+
+cts <- df_out %>% summarise(N = n())
+
+if(any(as_tibble(cts)[["N"]] > 1)) {
+  stop("This operator requires a single data point per cell.")
+}
+
+df_out %>%
+  transmute(value = -1 * .y) %>%
+  as_tibble() %>%
   ctx$addNamespace() %>%
   ctx$save()
