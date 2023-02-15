@@ -1,30 +1,21 @@
-# negative operator
+# Change Sign
 
-#### Description
-`negative` operator performs a negative of values
+##### Description
+
+`Change Sign` operator changes the sign of data points.
 
 ##### Usage
+
 Input projection|.
 ---|---
-`y-axis` | values to be negated
+`y-axis` | values to be transformed
 
 Output relations|.
 ---|---
-`negative`| numeric, negative per data point
+`value`| numeric, new value
 
 ##### Details
-A negative of values is performed.
 
+Values are multiplied by -1.
+The operator requires a maximum of 1 value per cell.
 
-#### References
-
-
-##### See Also
-
-#### Examples
-
-
-
-
- 
- 
