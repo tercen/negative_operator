@@ -1,6 +1,6 @@
 {
   "name": "Change Sign",
-  "description": "Changes the sign of numerical data (i.e. multiply by -1)",
+  "description": "Changes the sign of numerical data (i.e. multiply by -1).",
   "tags": [
     "arithmetic"
   ],
