@@ -1,8 +1,14 @@
 {
   "name": "Change Sign",
   "description": "Changes the sign of numerical data (i.e. multiply by -1)",
-  "tags": ["basic operations"],
-  "authors": ["tercen"],
-  "urls": ["https://github.com/tercen/negative_operator"],
+  "tags": [
+    "arithmetic"
+  ],
+  "authors": [
+    "tercen"
+  ],
+  "urls": [
+    "https://github.com/tercen/negative_operator"
+  ],
   "properties": []
 }
