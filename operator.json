@@ -47,7 +47,7 @@
               {
                 "kind": "MetaFactor",
                 "name": "Values",
-                "type": "numeric",
+                "type": "double",
                 "description": "Values to be transformed",
                 "ontologyMapping": "measurement",
                 "crosstabMapping": "y",
